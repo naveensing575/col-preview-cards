@@ -113,11 +113,13 @@ footer
 .container
 {
   margin-top: 5em;
-  margin-left: 0em;
+  margin-left: 2em;
 }
 footer
 {
   text-align: center;
   margin-bottom: -3em;
+  letter-spacing: .1ch;
+  word-spacing: .5ch;
 }
 }

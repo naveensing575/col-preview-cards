@@ -108,11 +108,11 @@ footer
 .container
 {
   margin-top: 5em;
-  margin-left: 3.7em;
+  margin-left: 3.5em;
 }
 .card
 {
-  height: 400px;
+  height: 420px;
   width: 240px;
   display: inline-block;
   padding: 1rem 2rem 1rem 2.5rem;
@@ -138,6 +138,7 @@ input
   background: hsl(0, 0%, 95%);
   margin-top: 2em;
   outline: none;
+  margin-bottom: 2em;
 }
 input:hover
 {
@@ -145,6 +146,7 @@ input:hover
   color: hsl(0, 0%, 95%);
   box-shadow: 0px 0px 0px 1px #fff;
   transition: background-color 0.5s;
+  outline: none;
 }
 footer
 {

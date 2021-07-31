@@ -72,6 +72,7 @@ input
   background: hsl(0, 0%, 95%);
   margin-top: 5em;
   letter-spacing: .2ch;
+  outline: none;
 }
 input:hover
 {
@@ -104,7 +105,18 @@ footer
 @media screen and (min-width: 375px) 
   and (orientation: portrait)
 {
-
+.container
+{
+  margin-top: 5em;
+  margin-left: 3.7em;
+}
+.card
+{
+  height: 400px;
+  width: 240px;
+  display: inline-block;
+  padding: 1rem 2rem 1rem 2.5rem;
+}
 .sedan
 {
   border-radius: 10px 10px 0px 0px;
@@ -114,10 +126,25 @@ footer
 {
   border-radius: 0px 0px 10px 10px;
 }
-.container
+input
 {
-  margin-top: 5em;
-  margin-left: 4em;
+  border: 1px solid hsl(0, 0%, 95%);
+  border-radius: 30px;
+  padding: 1em 1.5em 1em 1.5em;
+  font-size: 1em;
+  color: grey;
+  font-family: 'Lexend Deca', sans-serif;
+  cursor: pointer;
+  background: hsl(0, 0%, 95%);
+  margin-top: 2em;
+  outline: none;
+}
+input:hover
+{
+  background: transparent;
+  color: hsl(0, 0%, 95%);
+  box-shadow: 0px 0px 0px 1px #fff;
+  transition: background-color 0.5s;
 }
 footer
 {

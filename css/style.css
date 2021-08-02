@@ -135,9 +135,9 @@ input
   font-family: 'Lexend Deca', sans-serif;
   cursor: pointer;
   background: hsl(0, 0%, 95%);
-  margin-top: 2em;
+  margin-top: 1.5em;
   outline: none;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 input:hover
 {

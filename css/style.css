@@ -5,6 +5,7 @@ body
 {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 .container
 {
@@ -14,10 +15,9 @@ body
 .card
 {
 	height: 29rem;
-	width: 18rem;
+	width: 15.5rem;
   display: inline-block;
-  box-sizing: border-box;
-  padding: 1em 0em 1em 3em;
+  padding: .5em .2em 0em 3em;
 }
 h1
 {
@@ -56,7 +56,6 @@ h1
   color: hsla(0, 0%, 100%, 0.75);
   line-height: 2.5ch;
   padding: .5em 3em 5em 0em;
-  opacity: .8;
 }
 input
 {
@@ -101,6 +100,10 @@ footer
 @media screen and (min-width: 375px) 
   and (orientation: portrait)
 {
+  body
+  {
+    box-sizing: border-box;
+  }
 .container
 {
   margin-top: 5em;
@@ -111,7 +114,6 @@ footer
   height: 430px;
   width: 300px;
   display: inline-block;
-  box-sizing: border-box;
 }
 .sedan
 {
